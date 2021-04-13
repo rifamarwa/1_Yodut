@@ -7,5 +7,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="biruterangbanget">#A1FFF4</color>
+    <color name="biru_tema">#20CAD4</color>
+    <color name="background_biru_muda">#F0FFFC</color>
+    <color name="biru_muda_sekali_sekali">#B0E7FF</color>
 </resources>

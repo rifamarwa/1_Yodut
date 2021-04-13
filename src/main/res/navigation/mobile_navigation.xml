@@ -12,14 +12,14 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.yodut.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_kalendar"
+        android:name="com.example.yodut.ui.kalendar.FragmentKalendar"
+        android:label="@string/menu_kalendar"
+        tools:layout="@layout/fragment_kalendar" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.yodut.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_tugas"
+        android:name="com.example.yodut.ui.tugas.FragmentTugas"
+        android:label="@string/menu_tugas"
+        tools:layout="@layout/fragment_tugas" />
 </navigation>

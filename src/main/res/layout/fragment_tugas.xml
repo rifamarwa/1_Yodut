@@ -5,37 +5,41 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/background_biru_muda"
 
-    tools:context=".FragmentTugas">
+    tools:context=".ui.tugas.FragmentTugas">
 
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="130dp"
-        android:layout_marginBottom="100dp"/>
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="80dp" />
+
 
 
 </LinearLayout>
 
-<!--<FrameLayout-->
 
-<!--android:id="@+id/flFragment"-->
-<!--android:layout_width="370dp"-->
-<!--android:layout_height="502dp"-->
-<!--android:layout_marginTop="35dp"-->
-<!--app:layout_constraintBottom_toBottomOf="parent"-->
-<!--app:layout_constraintEnd_toEndOf="parent"-->
-<!--app:layout_constraintHorizontal_bias="0.5"-->
-<!--app:layout_constraintStart_toStartOf="parent"-->
-<!--app:layout_constraintTop_toTopOf="parent">-->
 
-<!--<androidx.recyclerview.widget.RecyclerView-->
-<!--    android:id="@+id/recyclerView"-->
-<!--    android:layout_width="match_parent"-->
-<!--    android:layout_height="match_parent" />-->
+    <!--<FrameLayout-->
 
-<!--</FrameLayout>-->
+    <!--android:id="@+id/flFragment"-->
+    <!--android:layout_width="370dp"-->
+    <!--android:layout_height="502dp"-->
+    <!--android:layout_marginTop="35dp"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintHorizontal_bias="0.5"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="parent">-->
 
-<!--    android:layout_marginTop="130dp"-->
+    <!--<androidx.recyclerview.widget.RecyclerView-->
+    <!--    android:id="@+id/recyclerView"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent" />-->
+
+    <!--</FrameLayout>-->
+
+    <!--    android:layout_marginTop="130dp"-->

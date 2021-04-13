@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_biru_muda"
+    tools:context=".DetailTugasActivity">
+
+<!--    <ImageView-->
+<!--        android:id="@+id/image_detail_tugas"-->
+<!--        android:layout_width="350dp"-->
+<!--        android:layout_height="230dp"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        />-->
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/biru_tema">
+
+    <TextView
+        android:id="@+id/text_nama_tugas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="50dp"
+        android:text="Nama Tugas"
+        android:textSize="100px" />
+
+    <TextView
+        android:id="@+id/text_deadline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="50dp"
+        android:text="deadline"
+        android:textSize="80px" />
+
+    <TextView
+        android:id="@+id/text_mata_kuliah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="50dp"
+        android:text="mata kuliah"
+        android:textSize="80px" />
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

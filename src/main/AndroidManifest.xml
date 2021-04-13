@@ -9,11 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Yodut">
+        <activity android:name=".DetailTugasActivity">
+            <intent-filter>
+                <action android:name="com.example.usingintent.SecondActivity"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
         <activity
-            android:name=".NavigationDrawer"
-            android:label="@string/title_activity_navigation_drawer"
-            android:theme="@style/Theme.Yodut.NoActionBar"></activity>
-        <activity android:name=".MainActivity">
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Yodut.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

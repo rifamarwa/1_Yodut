@@ -1,5 +1,8 @@
 package com.example.yodut;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 public class Tugas {
 
     private String namaTugas;
@@ -11,6 +14,7 @@ public class Tugas {
         this.deadline = deadline;
         this.mataKuliah = mataKuliah;
     }
+
 
     public String getNamaTugas() {
         return namaTugas;
@@ -35,4 +39,5 @@ public class Tugas {
     public void setMataKuliah(String mataKuliah) {
         this.mataKuliah = mataKuliah;
     }
+
 }
